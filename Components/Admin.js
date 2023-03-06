@@ -22,7 +22,7 @@ const Admin = () => {
     const flagUpdatePass = 3
     const [flag, setFlag] = useState(flagUpdateFullName)
     const navigation = useNavigation()
-    const avatarDefault = 'https://yt3.googleusercontent.com/ytc/AL5GRJXNe-49CInyBVI2ZvFRfHiGNKzItnZQzlDkSTKU6g=s176-c-k-c0x00ffffff-no-rj'
+    const avatarDefault = 'https://cdn-icons-png.flaticon.com/512/1144/1144760.png'
 
     useEffect(() => {
         _getUserCurrent()
